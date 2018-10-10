@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.page_wrapper {
+	width: 85%;
+	border: 1px solid black;
+	margin: 40px auto;
+	padding-top: 24px; 
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+
+}
+
+.general_info_wrapper {
+	display: flex;
+}
+
+td {
+	padding: 5px;
+}
+
+.contacts {
+	flex: 1 60%
+}
+
+.name {
+	text-align: center;
+	flex: 1 40%;
+
+}
+
+.name h1 {
+	font-size: 32px;
+	font-family: Times;
+	margin-bottom: 6px; 
+}
+
+.name p {
+	font-size: 18px;
+
+}
+
+.info_box {
+	margin: 30px auto;
+}
+
+.info_box h2 {
+	text-align: center;
+	font-size: 24px;
+	font-family: Times;
+	margin-bottom: 6px;
+  
+}
+
+.info_box p {
+	font-size: 18px;
+	line-height: 24px;
+
+}
+
+.info_box ul {
+	padding: 24px;
+}
+
+.info_box ul ul {
+	padding-top: 6px;
+}
+
+.info_box li {
+	margin-top: 10px;
+}
